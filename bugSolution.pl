@@ -1,0 +1,1 @@
+my @array = (1, 2, 3);my $size = @array; # Get the size of the array.my $element;if ($size > 0) {  # Check if array is not empty.  $element = $array[0]; # Access the first element.  # you can add more logic here to access specific elements based on array size.}else {  $element = undef;  # Handle empty array case.}print "First element is: $element\n"; 
